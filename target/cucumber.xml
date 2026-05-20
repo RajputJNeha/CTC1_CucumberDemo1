@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="9.067" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="demo project" name="Successful Login with Valid Credentials" time="8.831">
+<system-out><![CDATA[
+Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters UserName and Password.......................................passed
+Then Message displayed Login Successfully...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="demo project" name="Successful Logout" time="0.015">
+<system-out><![CDATA[
+When User Logout from the Application.......................................passed
+Then Message displayed Logout Successfully..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
